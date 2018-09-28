@@ -4,9 +4,10 @@
 ### By {Nyakio Mburu}
 
 #### Description
-
-
-
+Similar to the popularised 'Pig Dice' game, users shall roll a virtual die to receive a 'randomised' number result. The result of each subsequent roll shall be added to or deducted from a cumulative score. The first score to build up to a set threshold shall be declared winner. <br>
+The penultimate demonstration of my learnings at Moringa school. Once again, I declare: The end is nigh, sigh.<br>
+It may potentially incorporate the story board of two pigs debating over which gets killed and include interactive features emphasizing upon the same e.g pig squeal sound as winner is declared, whilst loser player partition declares bloodied pig.
+<br>
 #### Setup
 Git clone
 `git clone https://github.com/Nya-KE/<insert>
@@ -32,7 +33,7 @@ Git clone
 *
 
 #### Shout-Outs:
-
+*
 
 #### Link to Website:
 [Oink $ Roll]()
