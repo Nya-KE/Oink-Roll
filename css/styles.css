@@ -30,7 +30,7 @@ body {
  }
 
  .playdetails {
-   display: block;
+   display: none;
  }
 
  #pigs {
