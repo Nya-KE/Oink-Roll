@@ -34,17 +34,20 @@
       <div class="playdetails"> <!-- encloses ïnstructions and name input boxes-->
         <div class="row">
           <div class="col-sm-12">
-            <p class="instructions">Start by putting your names into the respective fields and proceed to roll your dice when able. First player to attain your set parameter shall escape the butcher's mission leaving the latter player with the perilous task!</p>
+            <p class="instructions">Start by putting your names into the respective fields and proceed to alternate turns rolling dice. <em>It is recommended that the player with more vowels within their name begin.<em> First player to attain a score of '100', shall escape the butcher's mission. Therefore, leaving the latter player with the perilous task leading to their demise! <br> May the best pig win, oink!</p>
           </div>
         </div>
-        <div class="row">
+        <div class="row jumbotron">
           <form class="playernames" action="index.html" method="post">
             <div class="col-sm-6">
+              <label for="player1">Piggy One</label>
               <input type="text" name="player1">
             </div>
             <div class="col-sm-6">
+              <label for="player2">Piggy Two</label>
               <input type="text" name="player2">
             </div>
+            <button type="submit" name="button">Submit</button>
           </form>
         </div> <!-- end "row" with input boxes-->
       </div> <!-- end div enclosing instructions and name input boxes-->
@@ -73,7 +76,7 @@
           <div class="footer">
             <div id="refresh">
               <p>Oink, there goes another piggy.</p>
-              <p>Reverse the wheels of time by refreshing this page. Click below, two pigs shall live to squeal again!</p>
+              <p>Reverse the wheels of time by refreshing this page. Click below and two pigs shall live to squeal again!</p>
               <button type="button" class="refresh btn">Refresh</button>
             </div>
             <h6>
