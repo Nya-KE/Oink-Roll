@@ -21,3 +21,10 @@ body {
     border-style: solid;
     border-color: rgb(94, 37, 24);
 }
+
+.pig p {
+  margin: 10px;
+}
+ #pigs {
+  padding: 20px;
+ }
