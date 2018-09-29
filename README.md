@@ -44,11 +44,12 @@ nya_KE <br>
 Images sources:<br>
 [pignose.png](https://ubisafe.org/images/nose-vector-svg-2.png)<br>
 [butcher.jpeg](https://www.vectorstock.com/royalty-free-vector/butcher-cutter-worker-meat-cleaver-knife-retro-vector-967060)<br>
-[nosepattern.jpeg](https://www.deviantart.com/blood-soaked/art/Pig-Nose-Wallpaper-651766818)
-[cute-pigs.jpeg](https://i.pinimg.com/originals/12/0a/09/120a098163e82c22062bf9b4bfc9a168.jpg)
-[happypig.jpeg, deviouspig.jpeg, scaredpig.jpeg](https://www.vectorstock.com/royalty-free-vector/set-of-cute-pig-characters-set-5-vector-17806789?utm_source=Pinterest&utm_medium=VectorStock+Social+Share&utm_campaign=Vector+Social+Share&utm_content=Set+of+cute+pig+characters+set+5)
-Other Resources:<br>
+[nosepattern.jpeg](https://www.deviantart.com/blood-soaked/art/Pig-Nose-Wallpaper-651766818)<br>
+[cute-pigs.jpeg](https://i.pinimg.com/originals/12/0a/09/120a098163e82c22062bf9b4bfc9a168.jpg)<br>
+[happypig.jpeg, deviouspig.jpeg, scaredpig.jpeg](https://www.vectorstock.com/royalty-free-vector/set-of-cute-pig-characters-set-5-vector-17806789?utm_source=Pinterest&utm_medium=VectorStock+Social+Share&utm_campaign=Vector+Social+Share&utm_content=Set+of+cute+pig+characters+set+5)<br>
 []()<br>
+Other Resources:<br>
+[pigpissd.mp3, wreee.mp3](https://www.freesoundeffects.com/free-sounds/pigs-10067/)<br>
 
 #### Contact Info & Remarks
 Kindly contact developer via mail nyakio.mburu@gmail.com or mobile phone +254 708 070844. For any queries, suggestions, or copyright infringements.<br>
