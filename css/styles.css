@@ -28,3 +28,15 @@ body {
  #pigs {
   padding: 20px;
  }
+
+ .playdetails {
+   display: block;
+ }
+
+ #pigs {
+   display: block;
+ }
+
+ #refresh {
+   display: block;
+ }
