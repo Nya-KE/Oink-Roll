@@ -1,0 +1,23 @@
+img {
+    width: 200px;
+    padding: 20px;
+    border-style: solid;
+    border-color: rgb(94, 37, 24);
+}
+
+.soon {
+    font-family: monospace;
+    width: 100%;
+    background-color: rgb(221, 172, 171);
+    margin-bottom: 20px;
+    border-style: groove;
+}
+
+
+body {
+    text-align: center;
+    margin: 20px 40px 40px;
+    background: repeating-linear-gradient(45deg, rgb(221, 172, 171), rgb(221, 172, 171) 10px, rgb(220, 20, 60) 10px, rgb(240, 128, 128) 20px) rgb(221, 172, 171);
+    border-style: solid;
+    border-color: rgb(94, 37, 24);
+}
