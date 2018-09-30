@@ -1,20 +1,32 @@
 //Business Logic
 /* To include code which: 1) takes entries 2) adds cumulative entries and prepares for display */
+
+/* Potential code for navigation
 $('a.nav-item.Story').tab('#story') // Select tab by name
 $('#myTab li:first-child a').tab('show') // Select first tab
-$('#myTab li:last-child a').tab('show') // Select last tab
-$('#myTab li:nth-child(3) a').tab('show') // Select third tab
+Potential code for name getting
+var name1 = document.getElementsByClassName("player1").text
 
-function(){
+var name2 = document.getElementsByClassName("player2").text
 
-}
+console.log(name1)
+console.log(name2)
+*/
+
+
 //User Interface Logic
 /* To include code which: 1)Which toggles and hide/shows various parts 2) takes entries from inputs (in future, users could also enter parameter for their game) 3) displays calculated score from BL and shows refresh  */
 $(document).ready(function(){
   $(".start").click(function(){
     $(".playdetails").fadeIn();
   });
-  $("input.player1").append(var Piggy1)
+  $("form.playernames").submit(function(event){
+    event.preventDefault()
+    var name1 = $("input.player1").val();
+    var name2 = $("input.player2").val();
+    $("#pig1 > p").append(name1);
+    $("#pig2 > p").append(name2);
+  });
 
 
 })
