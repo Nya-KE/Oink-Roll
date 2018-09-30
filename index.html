@@ -10,17 +10,16 @@
   <body>
     <div class="container">
 
-      <div class="row r1">
+      <div class="row r1 jumbotron">
             <div class="col-sm-12">
               <nav class="nav nav-pills nav-justified">
                 <a class="nav-item nav-link Story" href="#">Story</a>
                 <a class="nav-item nav-link" href="#">Instructions</a>
                 <a class="nav-item nav-link" href="#">Gameplay</a>
               </nav>
-              <center><h6>nya_KE presents:</h6>
               <h1 class= the >Oink and Roll</h1>
-              <img src="images/butcher.png" alt="butcher">
-              <h4>A pig MUST die!</h4> <center>
+              <h4><em>A pig MUST die!</em> </h4>
+              <img src="images/butchertrans.jpeg.png" alt="butcher">
             </div><!-- end class="col-md-12" -->
       </div><!-- end class="row1" -->
 
@@ -41,23 +40,23 @@
       <div class="playdetails"> <!-- encloses ïnstructions and name input boxes-->
         <div class="row">
           <div class="col-sm-12">
-            <p class="instructions">Start by putting your names into the respective fields and proceed to alternate turns rolling dice. <em>It is recommended that the player with more vowels within their name begin.<em> First player to attain a score of '100', shall escape the butcher's mission. Therefore, leaving the latter player with the perilous task leading to their demise! <br> May the best pig win, oink!</p>
+            <p class="instructions">Start by putting your names into the respective fields and proceed to alternate turns rolling dice.<br> <em>It is recommended that the player with more vowels within their name begin.</em><br> First player to attain a score of '100', shall escape the butcher's mission. <br> Therefore, leaving the latter player with the perilous task leading to their demise! <br> May the best pig win, oink!</p>
           </div>
         </div>
         <div class="row jumbotron">
           <form class="playernames" action="index.html" method="post">
             <div class="col-sm-5">
-              <label for="player1">Piggy One</label>
+              <label for="player1">First Piggy</label>
+              <br>
               <input type="text" class="player1">
             </div>
             <div class="col-sm-2">
               <h4>VS</h4>
               <p></p>
-              <br>
               <button type="submit" name="button">Submit</button>
             </div>
             <div class="col-sm-5">
-              <label for="player2">Piggy Two</label>
+              <label for="player2">Second Piggy</label>
               <input type="text" class="player2">
             </div>
           </form>
@@ -66,7 +65,7 @@
       <div class="row" id="pigs">
         <div class="col-sm-6">
           <div class="jumbotron pig" id="pig1">
-            <p></p>
+            <p class="names"></p>
             <img src="images/happypig.jpeg" alt="pig">
             <h3 class="score"></h3>
             <button type="button" class="roll btn">Roll</button>
@@ -75,7 +74,7 @@
         </div><!-- end "col-md-6" for pig 1 -->
         <div class="col-sm-6">
           <div class="jumbotron pig" id="pig2">
-            <p></p>
+            <p class="names"></p>
             <img src="images/happypig.jpeg" alt="pig">
             <h3 class="score"></h3>
             <button type="button" class="roll btn">Roll</button>
