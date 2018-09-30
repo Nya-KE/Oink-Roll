@@ -27,16 +27,16 @@ body {
 }
  #pigs {
   padding: 20px;
+  display: none;
  }
 
  .playdetails {
    display: none;
  }
 
- #pigs {
-   display: block;
- }
-
+.col-sm-2 p {
+  font-size: 13px;
+}
  #refresh {
    display: block;
  }
