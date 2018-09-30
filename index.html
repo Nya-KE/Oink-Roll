@@ -28,10 +28,11 @@
           <div id="story">
             <center><h3>Once upon a time, there were three pigs and a butcher.</h3>
               <p>Now, this butcher was a really good butcher. All the people in the town would enter his shop and after paying a fee would leave with bouncing bags and glee. As for the pigs who numbered up to three; they lived quite snug in a sty quite muddy, never dry. Though fate declared eldest piggy a sneaky little spy.<br><br>
-              With a curious little eye, he would see the people happier than he. Oh he sighed, he could not never let that be.
-              So he pried and he tried till he realised the butcher's part. Promise not to cry for a tragic end is nigh. <br><br>
-              For eldest piggy stole away to the butcher's shop. In he went, looking for a key to joy but instead he found a sharpened toy. Chop, chop chop, was all we heard and the little piggy, he didn't come back.<br> At the moment two piggies remain, curious about the dissapearance of their kin. <br><br>
+              With a curious little eye, he would see the people happier than he. Oh he sighed, he could never let that be.
+              So, he pried and he tried till he realised the butcher's part. Promise not to cry for a tragic end is nigh. <br><br>
+              One day, eldest piggy stole away to the butcher's shop. In he went, looking for a key to joy but instead he found a sharpened toy. Chop, chop, chop, was all we heard and the little piggy, he didn't come back.<br><br>
               <hr class="my-4">
+              At the moment two piggies remain, curious about the dissapearance of their kin.<br>
               Play a game for two to find out which pig shall undertake the fatal mission to the mysterious butcher's shop.</p>
             <button type="button" class="start btn">Play!</button><centre>
           </div>
@@ -40,7 +41,7 @@
       <div class="playdetails"> <!-- encloses ïnstructions and name input boxes-->
         <div class="row">
           <div class="col-sm-12">
-            <p class="instructions">Start by putting your names into the respective fields and proceed to alternate turns rolling dice.<br> <em>It is recommended that the player with more vowels within their name begin.</em><br> First player to attain a score of '100', shall escape the butcher's mission. <br> Therefore, leaving the latter player with the perilous task leading to their demise! <br> May the best pig win, oink!</p>
+            <p class="instructions">Start by putting your names into the respective fields and proceed to alternate turns rolling dice.<br> <em>It is recommended that the player with more vowels within their name begin.</em><br> First player to attain a score of <span id="winPara">100 </span> shall escape the butcher's mission. <br> Therefore, leaving the latter player with the perilous task leading to their demise! <br> May the best pig win, oink!</p>
           </div>
         </div>
         <div class="row jumbotron">
@@ -52,13 +53,13 @@
             </div>
             <div class="col-sm-2">
               <h4>VS</h4>
-              <p></p>
-              <button type="submit" name="button">Submit</button>
             </div>
             <div class="col-sm-5">
               <label for="player2">Second Piggy</label>
+              <br>
               <input type="text" class="player2">
             </div>
+            <button type="submit" name="button">Submit</button>
           </form>
         </div> <!-- end "row" with input boxes-->
       </div> <!-- end div enclosing instructions and name input boxes-->
@@ -67,7 +68,10 @@
           <div class="jumbotron pig" id="pig1">
             <p class="names"></p>
             <img src="images/happypig.jpeg" alt="pig">
-            <h3 class="score"></h3>
+            <br>
+            <label for="score1">Score:</label>
+            <br>
+            <h3 class="score score1"></h3>
             <button type="button" class="roll btn">Roll</button>
             <button type="button" class="log btn">Log</button>
           </div>
@@ -76,7 +80,8 @@
           <div class="jumbotron pig" id="pig2">
             <p class="names"></p>
             <img src="images/happypig.jpeg" alt="pig">
-            <h3 class="score"></h3>
+            <label for="score2">Score:</label>
+            <h3 class="score score2"></h3>
             <button type="button" class="roll btn">Roll</button>
             <button type="button" class="log btn">Log</button>
           </div>
