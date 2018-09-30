@@ -9,8 +9,14 @@
   </head>
   <body>
     <div class="container">
+
       <div class="row r1">
             <div class="col-sm-12">
+              <nav class="nav nav-pills nav-justified">
+                <a class="nav-item nav-link Story" href="#">Story</a>
+                <a class="nav-item nav-link" href="#">Instructions</a>
+                <a class="nav-item nav-link" href="#">Gameplay</a>
+              </nav>
               <center><h6>nya_KE presents:</h6>
               <h1 class= the >Oink and Roll</h1>
               <img src="images/butcher.png" alt="butcher">
@@ -19,13 +25,14 @@
       </div><!-- end class="row1" -->
 
       <div class="row r2">
-        <div class="col-sm-12">
+        <div class="col-sm-12 jumbotron">
           <div id="story">
             <center><h3>Once upon a time, there were three pigs and a butcher.</h3>
-              <p>Now, this butcher was a really good butcher. All the people in the town would enter his shop and after paying a fee would leave with bouncing bags and glee. As for the pigs numbered up to three. They lived quite snug in a sty quite muddy, never dry. Though fate declared eldest piggy a sneaky little spy.<br>
+              <p>Now, this butcher was a really good butcher. All the people in the town would enter his shop and after paying a fee would leave with bouncing bags and glee. As for the pigs who numbered up to three; they lived quite snug in a sty quite muddy, never dry. Though fate declared eldest piggy a sneaky little spy.<br><br>
               With a curious little eye, he would see the people happier than he. Oh he sighed, he could not never let that be.
-              So he pried and he tried till he realised the butcher's part. Promise not to cry for a tragic end is nigh. <br>
+              So he pried and he tried till he realised the butcher's part. Promise not to cry for a tragic end is nigh. <br><br>
               For eldest piggy stole away to the butcher's shop. In he went, looking for a key to joy but instead he found a sharpened toy. Chop, chop chop, was all we heard and the little piggy, he didn't come back.<br> At the moment two piggies remain, curious about the dissapearance of their kin. <br><br>
+              <hr class="my-4">
               Play a game for two to find out which pig shall undertake the fatal mission to the mysterious butcher's shop.</p>
             <button type="button" class="start btn">Play!</button><centre>
           </div>
@@ -39,15 +46,19 @@
         </div>
         <div class="row jumbotron">
           <form class="playernames" action="index.html" method="post">
-            <div class="col-sm-6">
+            <div class="col-sm-5">
               <label for="player1">Piggy One</label>
               <input type="text" name="player1">
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-2">
+              <h4>VS</h4>
+              <br>
+              <button type="submit" name="button">Submit</button>
+            </div>
+            <div class="col-sm-5">
               <label for="player2">Piggy Two</label>
               <input type="text" name="player2">
             </div>
-            <button type="submit" name="button">Submit</button>
           </form>
         </div> <!-- end "row" with input boxes-->
       </div> <!-- end div enclosing instructions and name input boxes-->
