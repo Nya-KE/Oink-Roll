@@ -13,7 +13,19 @@ console.log(name1)
 console.log(name2)
 */
 
-//Setting function for roll pig1
+var pigsArray = []
+var turnRollArray = []
+
+function Pig(pigName, score) {
+  this.playerName= playerName;
+  this.score = score;
+  pigsArray.push(this);
+}
+
+
+Array.prototype.sum = function() {
+  return this.reduce(function(a,b) {return a + b});
+}
 
 
 
@@ -39,9 +51,15 @@ $(document).ready(function(){
       $("#pig1 > .roll").click(function(){
         $(".score1").append("scoreTot1");
       }); // end pig1 roll
+      $("#pig1 > .log").click(function(){
+        $(".cumuScore1").append("cumuScoreTot1");
+      }); // end pig1 log
       $("#pig2 > .roll").click(function(){
         $(".score2").append("scoreTot2");
       }); // end pig2 roll
+      $("#pig2 > .log").click(function(){
+        $(".cumuScore2").append("cumuScoreTot2");
+      }); // end pig1 log
     });
   }); //end of submit
 }); //end of document.ready

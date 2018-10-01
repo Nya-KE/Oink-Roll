@@ -30,7 +30,7 @@ Git clone
 * Typical web browser e.g  Chrome, Safari
 
 #### Known Bugs
-* Background stripes do not present in browsers other than Google Chrome.
+* Background stripes do not present (sometimes) in browsers other than Google Chrome.
 
 #### Shout-Outs:
 *
@@ -50,6 +50,8 @@ Images sources:<br>
 []()<br>
 Other Resources:<br>
 [pigpissd.mp3, wreee.mp3](https://www.freesoundeffects.com/free-sounds/pigs-10067/)<br>
+Adaptation of JavaScript code: <br>
+(KatyCodes - Pig Dice)[https://github.com/KatyCodes/pig-dice/blob/master/js/scripts.js]
 
 #### Contact Info & Remarks
 Kindly contact developer via mail nyakio.mburu@gmail.com or mobile phone +254 708 070844. For any queries, suggestions, or copyright infringements.<br>
