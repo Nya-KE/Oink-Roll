@@ -40,7 +40,7 @@ $(document).ready(function(){
       var name1 = $("input.player1").val();
       var name2 = $("input.player2").val();
       if (name1 == "" || name2 == ""){
-        $(".col-sm-2 > p").append("*Complete Both Fields*");
+        $("form > p").text("*Complete Both Fields*");
       } else {
       $("#pig1 > p").append(name1 + "-Piggy");
       $("#pig2 > p").append(name2 + "-Piggy");
